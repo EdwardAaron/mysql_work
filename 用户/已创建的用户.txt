@@ -1,0 +1,7 @@
+用户名 			密码 			数据名
+springCloud     springCloud		db2020
+tiger			tiger			test_db
+springBootUser  springBootUser  springBootDatabase
+
+可以使用如下sql 查看
+	select host,user from mysql.user;

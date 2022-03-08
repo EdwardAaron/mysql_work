@@ -1,0 +1,2 @@
+显示tabxxx表结构信息
+desc tabxxx

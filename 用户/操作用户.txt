@@ -1,0 +1,4 @@
+创建用户，密码为tiger
+	CREATE USER 'tiger'@'localhost' IDENTIFIED BY 'tiger';
+为用户赋权限 ，将test_db数据库的所有权限赋给 tiger
+	GRANT ALL ON test_db.* TO 'tiger'@'localhost';

@@ -1,0 +1,9 @@
+添加主键
+多表查询使用join，如果可以的话，在join列添加索引
+关闭自动提交
+使用合理的提交块
+不要锁表
+使用select for update 锁定需要更新的行
+
+Enabling the innodb_file_per_table option or using general tablespaces to put the data and indexes for tables into separate files, instead of the system tablespace.
+

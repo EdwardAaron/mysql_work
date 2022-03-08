@@ -1,0 +1,13 @@
+select @@transaction_isolation
+	查看当前会话的的隔离级别，默认是REPEATABLE-READ
+select @@global.transaction_isolation;
+	查看全局隔离级别 ，默认是REPEATABLE-READ
+
+
+设置当前会话的隔离级别
+set session transaction isolation level read uncommitted;
+	//读，未提交
+set session transaction isolation level read committed;
+	//读，已提交
+set session transaction isolation level repeatable read;
+	//重复度

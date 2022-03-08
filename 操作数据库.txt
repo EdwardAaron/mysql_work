@@ -1,0 +1,11 @@
+1 创建数据库
+	CREATE DATABASE test_db;
+
+2 切换数据库
+	USE test_db;
+
+3 删除数据库 
+	DROP DATABASE test_db;
+
+4 查看已知的数据库
+	show databases;

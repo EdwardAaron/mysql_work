@@ -1,0 +1,3 @@
+set autocommit=0;	//关闭自动提交
+begin work;
+commit;

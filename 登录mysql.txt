@@ -1,0 +1,6 @@
+1 root 用户登录myql
+	mysql -u root -p
+	出现密码时候直接回车pass掉
+2 非root用户登录mysql
+	mysql -u springBootUser -p
+	出现密码时候正常输入
